@@ -7,8 +7,8 @@ $( document ).ready(function() {
             }
             else {
                 $.confirm({
-                    'title'     : 'Delete Confirmation',
-                    'message'   : 'You are about to delete this item. <br />It cannot be restored at a later time! Continue?',
+                    'title'     : 'Update Confirmation',
+                    'message'   : 'You are about to update this item. <br />Are you sure! Continue?',
                     'buttons'   : {
                         'Yes'   : {
                             'class' : 'blue',

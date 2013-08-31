@@ -400,7 +400,11 @@ class grade_report_grader extends grade_report {
         list($enrolledsql, $enrolledparams) = get_enrolled_sql($this->context);
 
         //fields we need from the user table
-        $userfields = user_picture::fields('u', get_extra_user_fields($this->context));
+        // change the grade table column, add 'username' - Jeff 08/17/2013
+    ////    $userfields = user_picture::fields('u', get_extra_user_fields($this->context));
+        $userfields = user_picture::fields('u', array('email', 'username'));
+//var_dump (get_extra_user_fields($this->context), array('username'));
+//var_dump($userfields);die;
 
         $sortjoin = $sort = $params = null;
 
@@ -639,6 +643,9 @@ class grade_report_grader extends grade_report {
         $strgrade     = $this->get_lang_string('grade');
 
         $extrafields = get_extra_user_fields($this->context);
+        // Add column for display in the <table>, add 'username', by Jeff 08/17/2013
+        $extrafields[] = 'username';
+        //var_dump($extrafields);die;
 
         $arrows = $this->get_sort_arrows($extrafields);
 
