@@ -259,6 +259,8 @@ form.loginform #rememberusername {
 
 /* adjust report table width - Jeff 08/17/2013 */
 .gradestable, table#user-grades { width: 100%; }
+/* adjust tooltip font size in grade report - Jeff 08/31/2013 */
+.path-grade-report-grader .yui3-overlay {font-size: 12px;}
 
 /** Custom CSS **/
 [[setting:customcss]]
