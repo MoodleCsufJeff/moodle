@@ -1,8 +1,7 @@
 <?php
 require_once($CFG->libdir.'/formslib.php');
 /*
- * UPDATE by Jeff Wang
- * 9-07-2013
+ * 
  */
 
 
