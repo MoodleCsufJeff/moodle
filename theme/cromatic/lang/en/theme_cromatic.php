@@ -5,6 +5,7 @@
  * Strings for component 'theme_standard', language 'en', branch 'MOODLE_20_STABLE'
  *
  * @package   theme_standard
+ * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -46,9 +47,11 @@ $string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot">
 
 	<h3>Theme Documentation:</h3><p><a href="#">The documentation link should be here</a></p>
 	
-	<h3>Report a bug:</h3><p><a href="mailto:yiduowang@exchange.fullerton.edu">yiduowang@exchange.fullerton.edu</a></p></div>
+	<h3>Report a bug:</h3><p><a href="mailto:yiduowang@exchange.fullerton.edu">yiduowang@exchange.fullerton.edu</a><br /></p></div>
 	<div class="theme_description">
 	<h2>About</h2>
 	
 	<p>Cromatic is simple, clean theme. You can control the maximum styles by using minimal feature of setting page.</p> 
+	
+	</div></div>'; 
 

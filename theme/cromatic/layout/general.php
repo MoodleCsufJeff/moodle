@@ -127,7 +127,7 @@ echo $OUTPUT->doctype() ?>
         echo $OUTPUT->home_link();
         echo $OUTPUT->standard_footer_html();
         ?>
-        
+
     </div>   </div>
     <?php } ?>
 <?php echo $OUTPUT->standard_end_of_body_html() ?>
