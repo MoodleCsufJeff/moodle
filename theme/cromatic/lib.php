@@ -430,3 +430,23 @@ function cromatic_colourBrightness($hex, $percent) {
  }
  return $hash.$hex;
 }
+
+/**
+ * Sets the jQuery library
+ *
+ */
+function theme_cromatic_page_init(moodle_page $page) {
+    // always add css first, add/define more jQuery in the jquery/plugins.php
+    $page->requires->jquery_plugin('ui-css', 'core');
+    $page->requires->jquery_plugin('fancybox-css', 'theme_cromatic');
+    $page->requires->jquery_plugin('confirm-css-style', 'theme_cromatic');
+    $page->requires->jquery_plugin('confirm-css', 'theme_cromatic');
+
+    $page->requires->jquery();
+    $page->requires->jquery_plugin('ui', 'core');
+    $page->requires->jquery_plugin('fancybox', 'theme_cromatic');
+    $page->requires->jquery_plugin('confirm', 'theme_cromatic');
+    $page->requires->jquery_plugin('myjquery', 'theme_cromatic');
+
+    
+}
