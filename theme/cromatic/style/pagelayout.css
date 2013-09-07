@@ -1,0 +1,413 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    color: #3d531f;
+    background:url([[pix:theme|images/bg]]) repeat #fcfdfb;
+}
+
+
+#page{width: 100%;}
+#wrapper {
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 95%;
+}
+.pagelayout-frontpage #page-header{
+    margin: 0;
+    width: 100%;
+}
+#page-site-index #page-header {
+    float: none;
+    height: 125px;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#page-header {
+    float: none;
+    height: 99px;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#header-container{
+    height: auto;
+    margin: 0px auto;
+    padding: 0 3%;
+}
+#page-header .headermain {
+    color: #fff;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 1px #3d531f;
+}
+.headermain span{
+    font-size: 0.7em;
+    font-weight: normal;
+    padding: 0px;
+}
+.headermenu{
+    background: #ecf1e6;
+    border: 1px solid #3d531f; 
+    border-width: 0px 1px 1px 1px;
+    padding: 8px 14px 6px 14px;
+    margin: 0 0 1% 0;
+    -moz-box-shadow: 0px 5px 10px #3d531f;
+    box-shadow: 0px 5px 10px #3d531f
+}
+.headermain-logo {
+    margin: .4% 0;
+    height: 80px;
+    padding: 0 0;
+}
+#page-header .headermain {
+    margin: .4% 0;
+    height: 24px;
+    padding: 20px 0;
+}
+
+.langmenu{
+    margin-top: 8px;
+}
+
+
+.headermain-logo span{
+	font-size:11px;
+	letter-spacing: 0.03em;
+	color: #fcfdfb;
+ 	margin-left: -182px;
+ }
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    margin: 0px 0;
+}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content{
+    background: none;
+    padding: 0 3%;
+}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label {
+    background: none;
+}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content{
+    border-width: 0px 0;
+}
+.yui3-skin-sam .yui3-menu-content, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-content{
+    border: none;
+}
+
+.block_course_summary, .block_course_summary .content, #page-course-user .section {
+    border-radius: 0px;
+    border-top: 1px solid #abbf8f;
+}
+.block .header h2 {
+    margin-top:2px; font-size:1em;
+}
+.block .header .block_action {
+    margin:0 4px;
+}
+.block .header h2, h2.headingblock {
+    color: #fcfdfb;
+    margin: 4px;
+}
+.course-content ul.weeks li.section .content h3{
+    line-height: 17px;
+}
+
+/*img.userpicture, img.grouppicture{
+    border: 1px solid #abbf8f;
+}*/
+
+.has_custom_menu #dock{
+	/*top: 156px;*/
+	top:182px;
+}
+
+
+
+#dock {
+    background-image: none;
+	left: 2.5%;
+	top: 17.2%;
+	margin-left: -30px;
+	border-width: 0;
+	background-color: transparent;
+	position: absolute;
+}
+
+
+#dock .controls {
+    background-color: #83a05b;
+	bottom: auto;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+    padding: 3px 0;
+}
+
+
+
+body.has_dock{
+   margin: 0px;
+}
+#page-footer .logininfo, #page-footer .sitelink, #page-footer .helplink {
+    padding: 3px;
+}
+#page-footer .validators{
+   padding: 4px;
+}
+.block{border: none;}
+#dock .dockeditem_container{margin-top: 0px;}
+#dock .dockeditem .dockedtitle{
+  background-image: none;
+  border-top: 1px solid #abbf8f;
+}
+#dockeditempanel .dockeditempanel_hd h2 {
+	font-size: 0.9em;
+	color: #fff;
+}
+#dock .dockedtitle.activeitem {
+	color: #fff !important;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+#dockeditempanel .dockeditempanel_hd {
+	background-image: none;
+	background-color: #abbf8f;
+	border: 1px solid #658a33;
+}
+#dock .dockeditem {
+	background-color: #fcfdfb;
+	border-left: 1px solid #abbf8f;
+	border-bottom: 0px solid #abbf8f;
+	border-right: 0px solid #fafafa;
+}
+#dock .dockeditem.firstdockitem {
+	border-top: 1px solid #abbf8f;
+	border-top-left-radius: 0px;
+}
+#dockeditempanel .dockeditempanel_bd{
+    border: 1px solid #abbf8f;
+    border-width: 0px 1px 1px 1px;
+}
+#dock .dockeditem .dockedtitle h2{
+    text-align: center;
+}
+
+/************************************** RT LANG *******************************************/
+
+.dir-rtl #dock {
+	right: 2.5%;
+	margin-right: -30px;
+}
+
+body.dir-rtl.has_dock {margin-right: 0px;}
+
+/************************************ RT LANG END *****************************************/
+
+.headingblock, table.minicalendar td, .path-calendar .maincalendar .filters table, .path-calendar .sidecalendar .filters table, .block.block_calendar_month .filters table, .path-calendar .maincalendar li.calendar_event_course, .path-calendar .maincalendar li.calendar_event_global, .path-calendar .maincalendar li.calendar_event_user, .path-calendar .maincalendar li.calendar_event_group, .path-calendar .filters td.calendar_event_course, .path-calendar .filters td.calendar_event_global, .path-calendar .filters td.calendar_event_user, .path-calendar .filters td.calendar_event_group {
+    border-radius: 0px;
+}
+
+.path-calendar .maincalendar, .path-calendar .sidecalendar, .path-calendar td.sidecalendar .block, .loginbox, .userinfobox, .groupinfobox, .block .content, .glossarycomment{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid #abbf8f;
+    padding: 10px;
+}
+.unlist, .unlist li, .inline-list, .inline-list li, .block .list, .block .list li, .sitetopic .section li.activity, .course-content .section li.activity, .tabtree li{
+    margin: 5px auto;
+}
+
+.forumpost{
+	border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.categorybox, .categoryboxcontent, .coursebox, .notifyproblem, .notifysuccess, table.minicalendar {
+    border-radius: 0;
+}
+.loginbox .content.right, .forumpost .content, .forumpost .message, .forumpost .side, .glossarycomment .entry {
+    border-bottom-right-radius: 0px;
+}
+.loginbox .content.left, #page-user-view .left, .forumpost .side, .glossarycomment .side {
+    border-bottom-left-radius: 0px;
+}
+.block .minicalendar{
+    border:none;
+    margin: 10px auto;
+}
+.calendartable th, .calendartable td {
+   /* border: 1px solid #ecf1e6;*/
+}
+.calendartable .today {
+   /* border: 1px solid #abbf8f;
+    background-color: #ecf1e6;*/
+}
+.pagelayout-report #page-content {
+    overflow: hidden;
+}
+.block .minicalendar th, .block .minicalendar td{padding: 0;}
+
+
+
+/*theme selctor*/
+
+#page-admin-theme-index .theme_screenshot img {
+	width: 275px;
+}
+
+#page-admin-theme-index .theme_screenshot {
+    float: left;
+    width: auto;
+}
+
+#page-admin-theme-index .theme_description {
+    float: left;
+    margin-left: 25px;
+    width: 460px;
+}
+
+.align-text{
+	font-size: 20px;
+    margin-bottom: 17px;
+}
+.font-size{
+	font-size:14px;
+}
+
+
+
+ .headermain-logo{
+	float:left;
+}
+
+
+.calendarmonth .header{
+	background-color: #E1E1DF;
+    background-image:url([[pix:theme|hgradient]]);
+
+    background-repeat: repeat-x;
+}
+
+.calendartable .today {
+    border: 1px solid #444444;
+}
+
+.path-course-view .section .activity{
+	padding:3px !important;
+}
+
+.navbar {
+	padding : 5px 5px;
+	padding: 2px 2px 5px;
+}
+#header, .navbar{background-image: none;}
+
+.header, .navbar{
+    border-bottom: 1px solid #aac08d;
+    background: #ecf1e6;
+}
+.navbar {
+    background: #ecf1e6;
+    width: 98.7%;
+    border: 1px solid #aac08d;
+    border-width: 0px 1px 1px 1px;
+    margin: 0px auto;
+	padding: 0 5px;
+	height: 26px;
+}
+
+.navbar .breadcrumb {
+	margin : 4px;
+	color : #0b2a54;
+}
+.navbar .navbutton{
+    margin: -3px;
+}
+
+/*---------------------------------------------------- Start dynamin css ------------------------------------------------------*/
+
+body{
+    background-color: [[setting:settingpgc]];
+}
+#page-header .headermain {
+    text-shadow: 1px 1px 1px [[setting:menuc]];
+}
+.headermenu{
+    background: [[setting:forumchildcolor]];
+    border: 1px solid [[setting:menuc]];
+    box-shadow: 0px 5px 10px [[setting:menuc]];
+}
+.block_course_summary, .block_course_summary .content, #page-course-user .section {
+    border-top: 1px solid [[setting:blockhdrc]];
+}
+
+.block .header h2, h2.headingblock {
+    color: [[setting:settingpgc]];
+}
+
+/*img.userpicture, img.grouppicture{
+    border: 1px solid [[setting:blockhdrc]];
+}*/
+#dock .controls {
+    background-color: [[setting:themegrdc]];
+}
+#dock .dockeditem.firstdockitem {
+	border-top: 1px solid [[setting:blockhdrc]];
+}
+#dock .dockeditem {
+	background-color: [[setting:settingpgc]];
+	border-left: 1px solid [[setting:blockhdrc]];
+	border-bottom: 0px solid [[setting:blockhdrc]];
+}
+#dockeditempanel .dockeditempanel_bd{
+    border: 1px solid [[setting:blockhdrc]];
+}
+#dockeditempanel .dockeditempanel_hd {
+	background-color: [[setting:blockhdrc]];
+	border: 1px solid [[setting:themecolor]];
+}
+#dock .dockedtitle.activeitem h2{
+    color: [[setting:themecolor]];
+}
+.calendartable th, .calendartable td {
+  /*  border: 1px solid [[setting:forumchildcolor]];*/
+}
+.calendartable .today {
+/*    border: 1px solid [[setting:blockhdrc]];
+    background-color: [[setting:forumchildcolor]];*/
+}
+.path-calendar .maincalendar, .path-calendar .sidecalendar, .path-calendar td.sidecalendar .block, .loginbox, .userinfobox, .groupinfobox, .block .content, .glossarycomment{
+    border: 1px solid [[setting:blockhdrc]];
+
+}
+
+.header, .navbar{
+    border-bottom: 1px solid [[setting:blockhdrc]];
+    background: [[setting:forumchildcolor]];
+}
+.navbar {
+    background: [[setting:forumchildcolor]];
+    border: 1px solid [[setting:blockhdrc]];
+}
+
+/****************** Edit by vishram ********************/
+
+.pagelayout-report #page-content .region-content {
+    overflow-x: scroll;
+}
+.courses .coursebox.even, .courses .coursebox:hover, .course_category_tree .courses > .paging.paging-morelink:hover {background-color: transparent;}
+.course_category_tree .category > .info {margin: 10px 0 0 0;}
+.courses .coursebox.collapsed {border-width: 0; background: #f8f8f8;}
+.course_category_tree .category > .content {padding-left: 0;}
+.coursebox .content {clear: inherit;}
+.coursebox .content .summary {width: 99%; float: left; padding-top: 5px;}
+.coursebox .content .summary .singleselect .no-overflow {text-align: left;}
+#frontpage-course-list .frontpage-course-list-all .coursebox > .info > .name a {background-image: none; padding-left: 5px;}
+
+/*----------------------------------------------------- End dynamin css --------------------------------------------------------*/

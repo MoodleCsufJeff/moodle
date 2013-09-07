@@ -1,0 +1,228 @@
+html, body#tinymce {
+    background-color: #fff;
+}
+#page-header {
+    background-color: #658A33;
+}
+#page-header {
+    background: -webkit-gradient(linear, left top, left bottom, from(#84a15c), to(#54702e));
+    background: -moz-linear-gradient(top, #84a15c, #54702e);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#84a15c, endColorstr=#54702e);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#84a15c, endColorstr=#54702e)";
+    border-bottom: 1px solid #457800;
+}
+a{color: #28728a;}
+
+a:hover{color: #536b36;}
+
+.admin .generalbox {
+    background-color: #fff;
+    border-color: #bdd29e;
+}
+h2 {color: #658a33;}
+
+.loginbox.twocolumns{
+    border: 1px solid #bdd29e;
+}
+.block {background: transparent;}
+
+.block .header {border:1px solid #658a33;}
+
+.block .header, .block h2 .header, .path-course-view .headingblock, #page-site-index .headingblock{background: #abbf8f;}
+
+.forumpost.firstpost .row.header {
+    background-color: #dae3ce;
+	border: 1px solid #abbf8f;
+}
+.generalbox, .informationbox, .noticebox, .tabledivider, .calendartable .nottoday {
+    border-color: #ecf1e6;
+}
+.forumpost {
+    /*border: 1px solid #abbf8f;*/
+}
+#page-mod-forum-view .forumheaderlist, th.header, td.header, div.header, .mform fieldset{
+    border-color: #dae3ce;
+}
+.forumpost .row.header {
+    background-color: #ecf1e6;
+ /*   border-bottom: 1px solid #abbf8f;*/
+}
+.course-content ul.topics li.section .content,  .course-content ul.weeks li.section .content {
+    background-color: #fcfdfb;
+}
+.coursebox {
+    border: 1px solid #ecf1e6;
+}
+.path-course-view .weeks .content, .path-course-view .topics .content, .path-course-view .weeks .section, .path-course-view .topics .section{
+    background-color: #fcfdfb;
+}
+.path-course-view .weeks .hidden, .path-course-view .topics .hidden, .path-course-view .hidden td.side{
+    background-color: #ecf1e6;
+}
+#adminsettings fieldset{
+    background-color: #fcfdfb;
+    border: 1px solid #dae3ce;
+}
+legend{
+    color: #fcfdfb;
+    background-color: #abbf8f;
+}
+.block .calendar_filters.filters{
+    background-color: transparent;
+}
+.path-calendar .maincalendar div.header{
+    border: 1px solid #abbf8f;
+}
+.path-calendar .maincalendar .filters table{
+    background-color: transparent;
+    border: 1px solid #dae3ce;
+}
+#page-footer{
+    background: #658a33;
+    border-top: 8px groove #3d531f;
+    color: #fcfdfb;
+    float: none;
+    height:125px;
+}
+#page-content{
+    background-color: #fff;
+    border-color: #658a33 #abbf8f #abbf8f #abbf8f; 
+    border-style: solid;
+    border-width: 4px 1px 0px 1px;
+    float: none;
+}
+#page-footer a{
+    color: #fff;
+}
+#page-footer a:hover{
+    color: #c8dfa8;
+}
+#page-footer .validators {
+    border-top: 1px dotted #fcfdfb;
+    margin-top: 35px;
+}
+
+
+.block .minicalendar td, .block .minicalendar th{
+	border:none;
+	line-height: 18px;
+}
+/*----------------------------------------------------Start dynamin css--------------------------------------------------------*/
+#page-header {
+    background-color: [[setting:themecolor]];
+}
+#page-header {
+    background: -webkit-gradient(linear, left top, left bottom, from([[setting:themegrdc]]), to([[setting:hdrcolor]]));
+    background: -moz-linear-gradient(top, [[setting:themegrdc]], [[setting:hdrcolor]]);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=[[setting:themegrdc]], endColorstr=[[setting:hdrcolor]]);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=[[setting:themegrdc]], endColorstr=[[setting:hdrcolor]])";
+    border-bottom: 0px solid #457800;
+}
+a{color: [[setting:linkcolor]];}
+
+a:hover{color: [[setting:linkhover]];}
+
+h2 {color: [[setting:themecolor]];}
+
+.block .header {
+    border:1px solid [[setting:themecolor]];
+    border-width: 3px 1px 1px 1px;
+}
+.block .header, .block h2 .header{
+    background: [[setting:blockhdrc]];
+}
+.path-course-view .headingblock, #page-site-index .headingblock {
+    margin-bottom: 9px;
+	background: [[setting:blockhdrc]];
+	border: none;
+}
+.forumpost.firstpost .row.header {
+    background-color: [[setting:forumcolor]];
+	border: 1px solid [[setting:blockhdrc]];
+	border-width: 0px 0px 1px 0px;
+}
+.generalbox, .informationbox, .noticebox, .tabledivider{
+    border-color: [[setting:forumchildcolor]];
+}
+
+/*.forumpost {
+    border: 1px solid [[setting:blockhdrc]];
+}*/
+/*.course-content ul.topics li.section, .course-content ul.weeks li.section{
+    border: 1px solid [[setting:blockhdrc]];
+}*/
+#page-mod-forum-view .forumheaderlist{
+    border-color: [[setting:forumcolor]]
+}
+th.header, td.header, div.header {
+    border-color: [[setting:forumcolor]];
+}
+.forumpost .row.header {
+    background-color: [[setting:forumchildcolor]];
+    background-image: none;
+  /*  border-bottom: 1px solid [[setting:blockhdrc]];*/
+}
+.course-content ul.topics li.section .content,  .course-content ul.weeks li.section .content {
+    background-color: [[setting:settingpgc]];
+}
+.coursebox {
+    border: 1px solid [[setting:forumchildcolor]];
+}
+#adminsettings fieldset{
+    background-color: [[setting:settingpgc]];
+    border: 1px solid [[setting:forumcolor]];
+}
+legend{
+    color: [[setting:settingpgc]];
+    background-color: [[setting:blockhdrc]];
+    padding: 5px 15px;
+}
+.mform fieldset{
+    border-color: [[setting:forumcolor]];
+}
+.path-calendar .maincalendar div.header{
+    border: 1px solid [[setting:blockhdrc]];
+    border-width: 1px 0 1px 0;
+}
+.calendartable .nottoday{
+    border-color: [[setting:forumchildcolor]];
+}
+.path-calendar .maincalendar .filters table{
+    border: 1px solid [[setting:forumcolor]];
+}
+.path-course-view .weeks .content, .path-course-view .topics .content, .path-course-view .weeks .section, .path-course-view .topics .section{
+    background-color: [[setting:settingpgc]];
+}
+.path-course-view .weeks .current, .path-course-view .topics .current, .path-course-view .current td.side {
+    background: none repeat scroll 0 0 [[setting:blockhdrc]];
+}
+.path-course-view .weeks .hidden, .path-course-view .topics .hidden, .path-course-view .hidden td.side {
+    background: none repeat scroll 0 0 #ddd;
+}
+#page-footer{
+    background: [[setting:themecolor]];
+    border-top: 8px groove [[setting:menuc]];
+    color: [[setting:settingpgc]];
+    width: 100%; 
+}
+#page-content{
+    border-color: [[setting:themecolor]] [[setting:blockhdrc]] [[setting:blockhdrc]] [[setting:blockhdrc]];
+}
+#page-footer .validators {
+    border-top: 1px dotted [[setting:settingpgc]];
+}
+.loginbox.twocolumns{
+    border: 1px solid [[setting:blockhdrc]];
+}
+/*---------------------------------------------------- End dynamin css --------------------------------------------------------*/
+
+
+
+#moodlethemes a{
+	color: #BCA37E;
+
+}
+
+#moodlethemes {
+	margin-top:10px;
+}

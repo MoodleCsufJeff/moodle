@@ -1,0 +1,84 @@
+
+#custommenu .yui3-menu {
+    background-image: none;
+    background-color: transparent;
+    border-top: 1px solid #fcfdfb;
+}
+.pagelayout-frontpage #custommenu{
+    padding: 0 0;
+}
+
+#custommenu{
+     background-color: #3c541c;
+     padding: 0;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content {
+	background : none !important ;
+}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+	background : none !important ;
+}
+#custommenu .yui3-menu-horizontal, #custommenu .yui3-menu-horizontal.javascript-disabled {
+	background-image : none;
+	height : 36px;
+	color : #fff;
+	padding: 0 3%;
+}
+.has-custom-menu #wrapper, #custommenu .yui3-menu-horizontal .yui3-menu-content, #custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content, #custommenu .yui3-menu-horizontal .yui3-menu-content ul, #custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content ul, #custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content li li:hover > a {
+	border-width : 0;
+}
+#custommenu .yui3-menu-horizontal .yui3-menu-content li a {
+	display : block;
+	vertical-align : middle;
+	cursor : pointer;
+	font-size : 16px;
+	font-weight : normal;
+	padding : 2px 22px;
+		border-top : none;
+	border-bottom : none;
+
+}	
+#custommenu .yui3-menu-horizontal .yui3-menu-content li:hover, #custommenu .yui3-menu-horizontal .yui3-menu-content .yui3-menu-label-active {
+	font-size : 16px;
+	font-weight : normal;
+	background-color: #3c541c;
+}
+.yui3-skin-sam #custommenu .yui3-menu-label,
+.yui3-skin-sam #custommenu .yui3-menu .yui3-menu .yui3-menu-label,
+.yui3-skin-sam #custommenu  .yui3-menuitem-content,
+.yui3-skin-sam #custommenu .yui3-menu .yui3-menu .yui3-menuitem-content {
+    color:#fff;
+    font-weight: normal;
+}
+#custommenu .yui3-menu .yui3-menu {
+    background-color: #82a158;
+}
+.yui3-skin-sam #custommenu .yui3-menu-content,
+.yui3-skin-sam #custommenu .yui3-menu .yui3-menu .yui3-menu-content {
+    padding:0;
+}
+.yui3-skin-sam .yui3-menu-label, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label{
+	background-image:url([[pix:theme|images/arrow-right]]) !important;
+	background-position: 98% center !important;
+	background-repeat: no-repeat !important;
+}
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content li li:hover,
+.yui3-skin-sam #custommenu .yui3-menu .custom_menu_submenu .yui3-menuitem.yui3-menuitem-active .yui3-menuitem-content, #custommenu .yui3-menu-horizontal .custom_menu_submenu .yui3-menu-content .yui3-menu-label-active {
+    background-image:none !important;
+}
+
+/*---------------------------------------- Dynamic css --------------------------------------*/
+
+
+#custommenu .yui3-menu {
+    border-top: 1px solid [[setting:settingpgc]];
+}
+#custommenu, #custommenu .yui3-menu-horizontal .yui3-menu-content li:hover, #custommenu .yui3-menu-horizontal .yui3-menu-content .yui3-menu-label-active {
+     background-color: [[setting:menuc]];
+}	
+#custommenu .yui3-menu .yui3-menu {
+    background-color: [[setting:themegrdc]];
+}
+
+/*------------------------------------- Dynamic css end --------------------------------------*/
