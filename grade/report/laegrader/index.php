@@ -195,7 +195,7 @@ if (!empty($studentsperpage)) {
 
 $reporthtml = $report->get_grade_table();
 $reporthtml .= "<link rel=\"stylesheet\" type=\"text/css\" href=\"$CFG->wwwroot/grade/report/laegrader/styles.css\" />";
-$reporthtml .= '<script src="jquery-1.7.2.min.js" type="text/javascript"></script>';
+//$reporthtml .= '<script src="jquery-1.7.2.min.js" type="text/javascript"></script>';
 		/*
        	 * code going into the html entity to enable scrolling columns and rows
        	 */
@@ -223,7 +223,7 @@ $reporthtml .= '<script src="jquery-1.7.2.min.js" type="text/javascript"></scrip
 
 // print submit button
 if ($USER->gradeediting[$course->id] && ($report->get_pref('showquickfeedback') || $report->get_pref('quickgrading'))) {
-    echo '<form action="index.php" method="post">';
+    echo '<form id="laegrader-form" action="index.php" method="post">';
     echo '<div>';
     echo '<input type="hidden" value="'.s($courseid).'" name="id" />';
     echo '<input type="hidden" value="'.sesskey().'" name="sesskey" />';
